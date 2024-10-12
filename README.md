@@ -1,5 +1,4 @@
 # Real-Time-Differential-Evolution-Human-Pose-Estimation
-Real Time Differential Evolution Human Pose Estimation
 
 # 🎯 Human Pose Estimation using Differential Evolution (DE) and MediaPipe BlazePose for Real-Time Optimization
 
@@ -16,6 +15,10 @@ Human Pose Estimation (HPS) involves detecting key points of the human body from
 
 BlazePose provides the baseline joint positions, which are then optimized further using **Differential Evolution (DE)** to improve real-time tracking performance.
 
+
+https://github.com/user-attachments/assets/71236535-7ad9-4624-89d7-a59378afcdd6
+
+
 ## 🦾 What is Differential Evolution (DE)?
 @DifferentialEvolution (DE) is a population-based **meta-heuristic optimization algorithm** that excels in finding global solutions in complex, non-linear spaces. In this project, DE is employed to **optimize the detected joint positions** in real time, ensuring more accurate and robust pose tracking.
 
@@ -28,7 +31,7 @@ By continuously refining the joint positions across video frames, DE ensures tha
 
 ## 🏗️ How the Algorithm Works (Step-by-Step)
 ### 1. **Initial Video Processing** 🎥
-- The input is a video file (e.g., `short.mp4`), which is processed **frame by frame**. The video is converted to an RGB format for accurate pose detection by **BlazePose**.
+- The input is a video file (e.g., `test.mp4`), which is processed **frame by frame**. The video is converted to an RGB format for accurate pose detection by **BlazePose**.
 
 ### 2. **Joint Detection Using BlazePose** 🦾
 - **BlazePose** detects 33 key points of the body, providing baseline joint positions. These joints are detected for each frame of the video.
