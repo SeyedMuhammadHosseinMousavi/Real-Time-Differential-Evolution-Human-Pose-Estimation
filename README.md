@@ -1,7 +1,7 @@
 # Real-Time-Differential-Evolution-Human-Pose-Estimation
 
 # 🎯 Human Pose Estimation using Differential Evolution (DE) and MediaPipe BlazePose for Real-Time Optimization
-
+September 2024 / Lugano / Switzerland
 ## 🏆 Problem Statement
 Human Pose Estimation (HPS) involves detecting key points of the human body from video or image frames. Traditional methods like CNN-based approaches often suffer from **high computational costs** and **inaccurate results** in real-time applications, especially in complex environments such as joint occlusions or noisy data.
 
